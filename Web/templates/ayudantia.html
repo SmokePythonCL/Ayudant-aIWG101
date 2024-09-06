@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block headcontent %}
+<title>Ayudantía</title>
+{% endblock %}
+
+{% block content %}
+<div style="background-image: url({% static 'images/ayudantia.png' %}); background-repeat: no-repeat; background-size: cover; height: 100vh; display: flex; justify-content: center; align-items: center; position: relative;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
+    <h1 style="position: relative; z-index: 1; font-weight: bold; color: white; font-size: 3rem;">Ayudantía</h1>
+</div>
+{% endblock %}
